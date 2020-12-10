@@ -1,0 +1,57 @@
+<head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
+<link href='style.css' rel='stylesheet' type='text/css'>
+<title>AmericanValues</title>
+<link rel="icon" type="x-icon" href="icon.png">
+<link rel="shortcut icon" type="x-icon" href="icon.png">
+<meta charset="utf-8">
+</head>
+<body>
+<a href="https://gitlab.com/TheAmeliaMay/AmericanValues" class="gitlab-corner" aria-label="View source on GitLab"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,130 L142,142 L250,250 L250,0 Z"></path></svg><img src="https://upload.wikimedia.org/wikipedia/commons/1/18/GitLab_Logo.svg" style="position: absolute; right: 5px; top: 5px; width: 40px;"></a>
+<h1>AmericanValues</h1>
+<hr>
+<button class="button" onclick="location.href='instructions.html';" style="font-size:36pt;">Click here to start!</button>
+<img src="values.svg" class="center"></img>
+
+<h2>What is AmericanValues?</h2>
+    <p>AmericanValues is a political quiz inspired by <a href="https://8values.github.io/">8values,</a> but tailored to the political climate of the United States. You will be presented by a statement, and then you will answer with your opinion on the statement, from <b>Strongly Agree</b> to <b>Strongly Disagree</b>, with each answer slightly affecting your scores. At the end of the quiz, your answers will be compared to the maximum possible for each value, thus giving you a percentage. Answer honestly!<br /><br />
+    There are <b><u><span id="numOfQuestions"></span></u></b> questions in the test.</p>
+
+<h2>What are the American values?</h2>
+    <p>There are six independent axes - Culture, Solutions, Foreign, Social, Powers, and States - and each has two opposing values assigned to them. They are:</p>
+    <p class="value-description"><b style="color:#0288d1;">Liberalism</b> (Culture)<br/>
+        Those with higher Liberalism scores believe the American way of life is morally wrong and needs to be fundamentally changed.</p>
+    <p class="value-description"><b style="color:#d32f2f;">Conservatism</b> (Culture)<br/>
+        Those with higher Conservatism scores believe the American way of life should be protected or restored.</p>
+    <p class="value-description"><b style="color:#D15585;">Cooperation</b> (Solutions)<br/>
+        Those with higher Cooperation scores believe all Americans should work together to solve their problems.</p>
+    <p class="value-description"><b style="color:#fbc02d;">Individualism</b> (Solutions)<br/>
+        Those with higher Individualism scores believe each American should solve their own problems independently.</p>
+    <p class="value-description"><b style="color:#7CD1FF;">Globalism</b> (Foreign)<br/>
+        Those with higher Globalism scores believe we should do more to help foreigners and work with other countries.</p>
+    <p class="value-description"><b style="color:#f57c00;">America First</b> (Foreign)<br/>
+        Those with higher America First scores believe we should put the interests of Americans above those of foreigners.</p>
+    <p class="value-description"><b style="color:#00796b;">Freedom</b> (Social)<br/>
+        Those with higher Freedom scores believe the government should leave Americans alone.</p>
+    <p class="value-description"><b style="color:#303f9f;">Security</b> (Social)<br/>
+        Those with higher Security scores believe the government should protect Americans from harm.</p>
+    <p class="value-description"><b style="color:#7b1fa2;">Authority</b> (Power)<br/>
+        Those with higher Authority scores believe the government's powers should be limitless.</p>
+    <p class="value-description"><b style="color:#689f38;">Constitution</b> (Power)<br/>
+        Those with higher Constitution scores believe the government's powers should be limited.</p>
+    <p class="value-description"><b style="color:#a6a6a6ff;">Centralism</b> (States)<br/>
+        Those with higher Centralism scores believe the federal government should decide most issues.</p>
+    <p class="value-description"><b style="color:#30CC86;">State's Rights</b> (States)<br/>
+        Those with higher State's Rights scores believe the states should be free to decide certain issues.</p>
+<h2>What's the "Closest Match" mean at the bottom of the results?</h2>
+    <p>In addition to matching you to the twelve American values, the quiz also attempts to match you to a political ideology. This is a work in progress and is much less accurate than the values and axes, so don't take it too seriously.</p>
+<h2>I don't like my scores!</h2>
+    <p>¯\_(ツ)_/¯<br/>
+    If you have any suggestions or constructive criticism, feel free to open an issue on the GitLab page here: <a href="https://gitlab.com/TheAmeliaMay/AmericanValues">GitLab</a></p>
+
+<!-- This is the script for the page itself -->
+<script type="application/javascript"src="questions.js"></script>
+<script type="text/javascript">
+    document.getElementById("numOfQuestions").innerHTML = questions.length;
+</script>
+</body>
