@@ -1,6 +1,6 @@
 questions = [
     {
-        "question": "America is/was great.",
+        "question": "America has a superior culture to other countries.",
         "effect": {
             "culture": -10,
             "solutions": 0,
@@ -33,29 +33,7 @@ questions = [
         }
     },
     {
-        "question": "Hate speech should be illegal.",
-        "effect": {
-            "culture": 20,
-            "solutions": 0,
-            "foreign": 0,
-            "social": 0,
-            "power": 20,
-            "states": 0
-        }
-    },
-    {
-        "question": "Racial minorities should receive reparations.",
-        "effect": {
-            "culture": 15,
-            "solutions": 0,
-            "foreign": 0,
-            "social": 0,
-            "power": 0,
-            "states": 0
-        }
-    },
-    {
-        "question": "The American flag is a symbol of good.",
+        "question": "My race is superior to others.",
         "effect": {
             "culture": -10,
             "solutions": 0,
@@ -66,7 +44,18 @@ questions = [
         }
     },
     {
-        "question": "The American flag is a symbol of evil.",
+        "question": "Hate speech should be illegal.",
+        "effect": {
+            "culture": 10,
+            "solutions": 0,
+            "foreign": 0,
+            "social": 0,
+            "power": 10,
+            "states": 0
+        }
+    },
+    {
+        "question": "Racial minorities should receive reparations.",
         "effect": {
             "culture": 10,
             "solutions": 0,
@@ -77,20 +66,31 @@ questions = [
         }
     },
     {
-        "question": "People shouldn't be required to wear clothes in public.",
+        "question": "The American flag should be respected.",
         "effect": {
-            "culture": 20,
+            "culture": -10,
             "solutions": 0,
             "foreign": 0,
-            "social": 20,
+            "social": 0,
             "power": 0,
             "states": 0
         }
     },
     {
-        "question": "Obesity should be accepted.",
+        "question": "People shouldn't be required to wear clothes in public.",
         "effect": {
-            "culture": 15,
+            "culture": 10,
+            "solutions": 0,
+            "foreign": 0,
+            "social": 10,
+            "power": 0,
+            "states": 0
+        }
+    },
+    {
+        "question": "There is nothing wrong with being obese.",
+        "effect": {
+            "culture": 10,
             "solutions": 0,
             "foreign": 0,
             "social": 0,
@@ -104,8 +104,8 @@ questions = [
             "culture": 0,
             "solutions": 0,
             "foreign": 0,
-            "social": -10,
-            "power": 20,
+            "social": -5,
+            "power": 10,
             "states": 0
         }
     },
@@ -165,21 +165,10 @@ questions = [
         }
     },
     {
-        "question": "It's okay for businesses to discriminate against minorities.",
-        "effect": {
-            "culture": -15,
-            "solutions": -10,
-            "foreign": 0,
-            "social": 0,
-            "power": 0,
-            "states": 0
-        }
-    },
-    {
-        "question": "I support freedom of association.",
+        "question": "It shoule be legal for businesses to discriminate against minorities.",
         "effect": {
             "culture": -10,
-            "solutions": -15,
+            "solutions": -5,
             "foreign": 0,
             "social": 0,
             "power": 0,
@@ -187,9 +176,9 @@ questions = [
         }
     },
      {
-        "question": '"Family values" are nonsense.',
+        "question": "Family values are important for a moral society.",
         "effect": {
-            "culture": 10,
+            "culture": -10,
             "solutions": 0,
             "foreign": 0,
             "social": 0,
@@ -211,7 +200,7 @@ questions = [
     {
         "question": "Transgender people should be allowed use their preferred restroom.",
         "effect": {
-            "culture": 15,
+            "culture": 10,
             "solutions": 0,
             "foreign": 0,
             "social": 0,
@@ -233,7 +222,7 @@ questions = [
     {
         "question": "Women shouldn't be in politics.",
         "effect": {
-            "culture": -20,
+            "culture": -10,
             "solutions": 0,
             "foreign": 0,
             "social": 0,
@@ -289,7 +278,7 @@ questions = [
         "question": "We should implement a universal basic income.",
         "effect": {
             "culture": 0,
-            "solutions": 15,
+            "solutions": 10,
             "foreign": 0,
             "social": 0,
             "power": 0,
@@ -311,7 +300,7 @@ questions = [
         "question": "We have to get the national debt under control.",
         "effect": {
             "culture": 0,
-            "solutions": 15,
+            "solutions": -10,
             "foreign": 0,
             "social": 0,
             "power": 0,
@@ -366,7 +355,7 @@ questions = [
         "question": "We should have a single-payer healthcare system.",
         "effect": {
             "culture": 0,
-            "solutions": 15,
+            "solutions": 10,
             "foreign": 0,
             "social": 0,
             "power": 0,
@@ -377,7 +366,7 @@ questions = [
         "question": "Socialized medicine sounds like a good idea.",
         "effect": {
             "culture": 0,
-            "solutions": 20,
+            "solutions": 10,
             "foreign": 0,
             "social": 0,
             "power": 0,
@@ -418,7 +407,40 @@ questions = [
         }
     },
     {
+        "question": "The banks should be nationalized.",
+        "effect": {
+            "culture": 0,
+            "solutions": 10,
+            "foreign": 0,
+            "social": 0,
+            "power": 0,
+            "states": 0
+        }
+    },
+    {
+        "question": "Unearned income and speculation should be more highly taxed than earned income.",
+        "effect": {
+            "culture": 0,
+            "solutions": 10,
+            "foreign": 0,
+            "social": 0,
+            "power": 0,
+            "states": 0
+        }
+    },
+    {
         "question": "We shouldn't have public schools.",
+        "effect": {
+            "culture": 0,
+            "solutions": -10,
+            "foreign": 0,
+            "social": 0,
+            "power": 0,
+            "states": 0
+        }
+    },
+    {
+        "question": "School vouchers are a good alternative to public schools.",
         "effect": {
             "culture": 0,
             "solutions": -10,
@@ -454,7 +476,7 @@ questions = [
         "question": "College should be free for everyone.",
         "effect": {
             "culture": 0,
-            "solutions": 15,
+            "solutions": 10,
             "foreign": 0,
             "social": 0,
             "power": 0,
@@ -462,7 +484,7 @@ questions = [
         }
     },
     {
-        "question": "If we must have taxes, it should be a flat sales tax.",
+        "question": "If we must have a tax, it should be a sales tax.",
         "effect": {
             "culture": 0,
             "solutions": -10,
@@ -476,7 +498,7 @@ questions = [
         "question": "We shouldn't have taxes.",
         "effect": {
             "culture": 0,
-            "solutions": -20,
+            "solutions": -10,
             "foreign": 0,
             "social": 0,
             "power": 0,
@@ -495,7 +517,7 @@ questions = [
        }
     },
     {
-        "question": "The government should invest more in infrastructure.",
+        "question": "The government should invest more into infrastructure.",
         "effect": {
             "culture": 0,
             "solutions": 10,
@@ -517,7 +539,7 @@ questions = [
        }
     },
     {
-        "question": "Climate change is a collective burden.",
+        "question": "We need stronger environmental regulations.",
         "effect": {
             "culture": 0,
             "solutions": 10,
@@ -528,10 +550,10 @@ questions = [
         }
     },
     {
-        "question": "We need stronger environmental regulations.",
+        "question": "There should be a tax on pollution.",
         "effect": {
             "culture": 0,
-            "solutions": 15,
+            "solutions": 10,
             "foreign": 0,
             "social": 0,
             "power": 0,
@@ -539,10 +561,10 @@ questions = [
         }
     },
     {
-        "question": "There should be a hard cap on wealth.",
+        "question": "Fracking should be banned.",
         "effect": {
             "culture": 0,
-            "solutions": 15,
+            "solutions": 10,
             "foreign": 0,
             "social": 0,
             "power": 0,
@@ -550,40 +572,7 @@ questions = [
         }
     },
     {
-        "question": "Everything should be collectively owned.",
-        "effect": {
-            "culture": 0,
-            "solutions": 20,
-            "foreign": 0,
-            "social": 0,
-            "power": 0,
-            "states": 0
-       }
-    },
-    {
-        "question": "Communism doesn't work.",
-        "effect": {
-            "culture": 0,
-            "solutions": -15,
-            "foreign": 0,
-            "social": 0,
-            "power": 0,
-            "states": 0
-        }
-    },
-    {
-        "question": "Workers should play a role in the management of businesses.",
-        "effect": {
-            "culture": 0,
-            "solutions": 15,
-            "foreign": 0,
-            "social": 0,
-            "power": 0,
-            "states": 0
-        }
-    },
-    {
-        "question": "The unions can't be trusted.",
+        "question": "Public parks and nature reserves should be privatized.",
         "effect": {
             "culture": 0,
             "solutions": -10,
@@ -594,7 +583,95 @@ questions = [
         }
     },
     {
-        "question": "Some professions should need government-issued licenses.",
+        "question": "There should be a hard cap on wealth.",
+        "effect": {
+            "culture": 0,
+            "solutions": 10,
+            "foreign": 0,
+            "social": 0,
+            "power": 0,
+            "states": 0
+        }
+    },
+    {
+        "question": "Everything should be collectively owned.",
+        "effect": {
+            "culture": 0,
+            "solutions": 10,
+            "foreign": 0,
+            "social": 0,
+            "power": 0,
+            "states": 0
+       }
+    },
+    {
+        "question": "Some industries are better off being managed by the government.",
+        "effect": {
+            "culture": 0,
+            "solutions": 10,
+            "foreign": 0,
+            "social": 0,
+            "power": 0,
+            "states": 0
+       }
+    },
+    {
+        "question": "Communism doesn't work.",
+        "effect": {
+            "culture": -10,
+            "solutions": -10,
+            "foreign": 0,
+            "social": 0,
+            "power": 0,
+            "states": 0
+        }
+    },
+    {
+        "question": "Workers should play a role in the management of businesses.",
+        "effect": {
+            "culture": 0,
+            "solutions": 10,
+            "foreign": 0,
+            "social": 0,
+            "power": 0,
+            "states": 0
+        }
+    },
+    {
+        "question": "Workers should at least partially own the businesses at which they work.",
+        "effect": {
+            "culture": 0,
+            "solutions": 10,
+            "foreign": 0,
+            "social": 0,
+            "power": 0,
+            "states": 0
+        }
+    },
+    {
+        "question": "Worker's unions hurt the economy.",
+        "effect": {
+            "culture": 0,
+            "solutions": -10,
+            "foreign": 0,
+            "social": 0,
+            "power": 0,
+            "states": 0
+        }
+    },
+    {
+        "question": "Worker's unions are secretly controlled by Communists.",
+        "effect": {
+            "culture": 0,
+            "solutions": -10,
+            "foreign": 0,
+            "social": 0,
+            "power": 0,
+            "states": 0
+        }
+    },
+    {
+        "question": "Some professions should require government-issued licenses.",
         "effect": {
             "culture": 0,
             "solutions": 10,
@@ -638,17 +715,6 @@ questions = [
         }
     },
     {
-        "question": "Intellectual property and copyright shouldn't exist.",
-        "effect": {
-            "culture": 0,
-            "solutions": 20,
-            "foreign": 0,
-            "social": 0,
-            "power": 0,
-            "states": 0
-        }
-    },
-    {
         "question": "We should put the needs of Americans above the needs of foreigners.",
         "effect": {
             "culture": 0,
@@ -662,16 +728,16 @@ questions = [
     {
         "question": '"America First" is a good motto.',
         "effect": {
-            "culture": 0,
+            "culture": -5,
             "solutions": 0,
-            "foreign": -5,
+            "foreign": -10,
             "social": 0,
             "power": 0,
             "states": 0
         }
     },
     {
-        "question": "Most illegal immigrants should be deported.",
+        "question": "Most, if not all, illegal immigrants should be deported.",
         "effect": {
             "culture": 0,
             "solutions": 0,
@@ -686,7 +752,7 @@ questions = [
         "effect": {
             "culture": 0,
             "solutions": 0,
-            "foreign": 20,
+            "foreign": 10,
             "social": 0,
             "power": 0,
             "states": 0
@@ -697,7 +763,7 @@ questions = [
         "effect": {
             "culture": 0,
             "solutions": 0,
-            "foreign": -20,
+            "foreign": -10,
             "social": 0,
             "power": 0,
             "states": 0
@@ -748,22 +814,11 @@ questions = [
         }
     },
     {
-        "question": "America should always be prepared for a defensive war.",
-        "effect": {
-            "culture": 0,
-            "solutions": 0,
-            "foreign": 0,
-            "social": -10,
-            "power": 0,
-            "states": 0
-        }
-    },
-    {
         "question": "As long as Americans suffer, there shouldn't be any foreign aid.",
         "effect": {
             "culture": 0,
             "solutions": 0,
-            "foreign": -15,
+            "foreign": -10,
             "social": 0,
             "power": 0,
             "states": 0
@@ -808,7 +863,7 @@ questions = [
             "culture": 0,
             "solutions": 0,
             "foreign": 0,
-            "social": -10,
+            "social": 10,
             "power": 0,
             "states": 0
         }
@@ -819,7 +874,7 @@ questions = [
             "culture": 0,
             "solutions": 0,
             "foreign": 0,
-            "social": -20,
+            "social": 10,
             "power": 0,
             "states": 0
          }
@@ -840,8 +895,8 @@ questions = [
         "effect": {
             "culture": 0,
             "solutions": 5,
-            "foreign": -10,
-            "social": -15,
+            "foreign": -5,
+            "social": -10,
             "power": 0,
             "states": 0
         }
@@ -863,7 +918,7 @@ questions = [
             "culture": 0,
             "solutions": 0,
             "foreign": 0,
-            "social": -20,
+            "social": -10,
             "power": 0,
             "states": 0
         }
@@ -896,13 +951,13 @@ questions = [
             "culture": 0,
             "solutions": 0,
             "foreign": 0,
-            "social": -20,
+            "social": -10,
             "power": 0,
             "states": 0
         }
     },
     {
-        "question": "I support the War on Drugs.",
+        "question": "Hard drugs should remain illegal, even if decriminalized.",
         "effect": {
             "culture": -5,
             "solutions": -10,
@@ -913,18 +968,18 @@ questions = [
         }
     },
     {
-        "question": "Prohibition was a good idea.",
+        "question": "Prohibition would work if implemented today.",
         "effect": {
-            "culture": -10,
-            "solutions": -20,
+            "culture": -5,
+            "solutions": -10,
             "foreign": 0,
-            "social": -20,
+            "social": -10,
             "power": 0,
             "states": 0
         }
     },
     {
-        "question": "Voting is a crucial part of American society.",
+        "question": "Every adult citizen should be allowed to vote.",
         "effect": {
             "culture": 0,
             "solutions": 0,
@@ -941,7 +996,7 @@ questions = [
             "solutions": 0,
             "foreign": 0,
             "social": 0,
-            "power": 15,
+            "power": 10,
             "states": 0
         }
     },
@@ -985,7 +1040,7 @@ questions = [
             "solutions": 0,
             "foreign": 0,
             "social": 0,
-            "power": -10,
+            "power": 10,
             "states": 0
         }
     },
@@ -1018,18 +1073,18 @@ questions = [
             "solutions": 0,
             "foreign": 0,
             "social": 0,
-            "power": 15,
+            "power": 10,
             "states": 0
         }
     },
     {
-        "question": "A dictatorship is more desirable than a tyranny of the majority.",
+        "question": "If democratic institutions fail to serve the People, then a benevolent dictator should assume power.",
         "effect": {
             "culture": 0,
             "solutions": 0,
             "foreign": 0,
             "social": 0,
-            "power": 20,
+            "power": 10,
             "states": 0
         }
     },
@@ -1062,7 +1117,7 @@ questions = [
             "solutions": 0,
             "foreign": 0,
             "social": 0,
-            "power": 20,
+            "power": 10,
             "states": 0
         }
     },
@@ -1073,7 +1128,7 @@ questions = [
             "solutions": 0,
             "foreign": 0,
             "social": 0,
-            "power": 20,
+            "power": 10,
             "states": 0
         }
     },
@@ -1129,7 +1184,7 @@ questions = [
             "foreign": 0,
             "social": 0,
             "power": 0,
-            "states": -20
+            "states": -10
         }
     },
     {
@@ -1140,18 +1195,7 @@ questions = [
             "foreign": 0,
             "social": 0,
             "power": 0,
-            "states": -20
-        }
-    },
-    {
-        "question": "The tenth amendment should be repealed.",
-        "effect": {
-            "culture": 0,
-            "solutions": 0,
-            "foreign": 0,
-            "social": 0,
-            "power": 0,
-            "states": -15
+            "states": -10
         }
     },
     {
@@ -1162,7 +1206,7 @@ questions = [
             "foreign": 0,
             "social": 0,
             "power": 0,
-            "states": -15
+            "states": -10
         }
     },
     {
@@ -1173,7 +1217,7 @@ questions = [
             "foreign": 0,
             "social": 0,
             "power": -5,
-            "states": -20
+            "states": -10
         }
     },
     {
@@ -1195,40 +1239,40 @@ questions = [
             "foreign": 0,
             "social": 0,
             "power": 0,
-            "states": 20
+            "states": 10
         }
     },
     {
         "question": "Washington D.C. should be a state.",
         "effect": {
-            "culture": 5,
+            "culture": 10,
             "solutions": 0,
             "foreign": 0,
             "social": 0,
-            "power": -5,
-            "states": 5
+            "power": -10,
+            "states": 10
         }
     },
     {
         "question": "Puerto Rico should be a state.",
         "effect": {
-            "culture": 5,
+            "culture": 10,
             "solutions": 0,
-            "foreign": 5,
+            "foreign": 10,
             "social": 0,
-            "power": -5,
-            "states": 5
+            "power": -10,
+            "states": 10
         }
     },
     {
         "question": "Jefferson (Northern California and Southern Oregon) should become a state.",
         "effect": {
-            "culture": -5,
+            "culture": -10,
             "solutions": 0,
             "foreign": 0,
             "social": 0,
-            "power": -5,
-            "states": 5
+            "power": -10,
+            "states": 10
         }
     },
     {
@@ -1239,7 +1283,7 @@ questions = [
             "foreign": 0,
             "social": 0,
             "power": 0,
-            "states": 15
+            "states": 10
         }
     },
     {
@@ -1272,17 +1316,6 @@ questions = [
             "foreign": 0,
             "social": 0,
             "power": -10,
-            "states": 0
-        }
-    },
-    {
-        "question": "I hate America.",
-        "effect": {
-            "culture": 20,
-            "solutions": 0,
-            "foreign": 10,
-            "social": 0,
-            "power": 0,
             "states": 0
         }
     }

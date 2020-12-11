@@ -55,6 +55,17 @@ ideologies = [
         }
     },
     {
+        "name": "National Socialist",
+        "stats": {
+            "culture": 20,
+            "solutions": 85,
+            "foreign": 30,
+            "social": 60,
+            "power": 60,
+            "states": 60
+        }
+    },
+    {
         "name": "Trump Republican",
         "stats": {
             "culture": 15,
@@ -156,12 +167,12 @@ ideologies = [
     {
         "name": "Fascist",
         "stats": {
-            "culture": 100,
-            "solutions": 70,
+            "culture": 75,
+            "solutions": 60,
             "foreign": 25,
-            "social": 0,
-            "power": 100,
-            "states": 100
+            "social": 75,
+            "power": 75,
+            "states": 50
         }
     },
     {
