@@ -165,7 +165,7 @@ questions = [
         }
     },
     {
-        "question": "It shoule be legal for businesses to discriminate against minorities.",
+        "question": "It should be legal for businesses to discriminate against minorities.",
         "effect": {
             "culture": -10,
             "solutions": -5,
@@ -506,7 +506,7 @@ questions = [
        }
     },
     {
-        "question": "We should have less regulations that we do now.",
+        "question": "We should have less regulations than we do now.",
         "effect": {
             "culture": 0,
             "solutions": -10,
