@@ -25,6 +25,17 @@ ideologies = [
         "name": "Mainstream Republican",
         "stats": {
             "culture": 40,
+            "solutions": 60,
+            "foreign": 50,
+            "social": 40,
+            "power": 40,
+            "states": 55
+        }
+    },
+    {
+        "name": "Progressive Republican",
+        "stats": {
+            "culture": 40,
             "solutions": 35,
             "foreign": 60,
             "social": 40,
