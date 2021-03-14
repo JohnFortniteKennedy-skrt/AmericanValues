@@ -198,5 +198,3 @@ ideologies = [
         }
     }
 ];
-
-//temp
