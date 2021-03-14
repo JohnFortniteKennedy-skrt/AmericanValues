@@ -33,6 +33,17 @@ ideologies = [
         }
     },
     {
+        "name": "National Populist",
+        "stats": {
+            "culture": 35,
+            "solutions": 65,
+            "foreign": 20,
+            "social": 25,
+            "power": 20,
+            "states": 35
+        }
+    },
+    {
         "name": "Conservative Democrat",
         "stats": {
             "culture": 60,
