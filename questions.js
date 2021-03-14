@@ -286,7 +286,7 @@ questions = [
         }
     },
     {
-        "question": "Welfare doesn't work.",
+        "question": "Welfare usually doesn't work.",
         "effect": {
             "culture": 0,
             "solutions": -10,
@@ -660,7 +660,7 @@ questions = [
         }
     },
     {
-        "question": "Worker's unions are secretly controlled by Communists.",
+        "question": "Worker's unions can't be trusted.",
         "effect": {
             "culture": 0,
             "solutions": -10,
@@ -715,20 +715,9 @@ questions = [
         }
     },
     {
-        "question": "We should put the needs of Americans above the needs of foreigners.",
+        "question": "We should put the needs of Americans first, before the needs of foreigners.",
         "effect": {
             "culture": 0,
-            "solutions": 0,
-            "foreign": -10,
-            "social": 0,
-            "power": 0,
-            "states": 0
-        }
-    },
-    {
-        "question": '"America First" is a good motto.',
-        "effect": {
-            "culture": -5,
             "solutions": 0,
             "foreign": -10,
             "social": 0,
@@ -891,6 +880,17 @@ questions = [
         }
     },
     {
+        "question": "Abolish the death penalty.",
+        "effect": {
+            "culture": 0,
+            "solutions": 0,
+            "foreign": 0,
+            "social": 10,
+            "power": 0,
+            "states": 0
+        }
+    },
+    {
         "question": "The government should ban foreign apps that pose a threat to national security.",
         "effect": {
             "culture": 0,
@@ -902,7 +902,7 @@ questions = [
         }
     },
     {
-        "question": "Looting businesses is okay, because they exploit their workers.",
+        "question": "Looting businesses is okay, or should even be encouraged.",
         "effect": {
             "culture": 0,
             "solutions": 10,
@@ -946,7 +946,7 @@ questions = [
         }
     },
     {
-        "question": "A police state is desirable.",
+        "question": "The government should police every aspect of life.",
         "effect": {
             "culture": 0,
             "solutions": 0,
@@ -1089,6 +1089,17 @@ questions = [
         }
     },
     {
+        "question": "The military would be better at governance than elected politicians.",
+        "effect": {
+            "culture": 0,
+            "solutions": 0,
+            "foreign": 0,
+            "social": 0,
+            "power": 10,
+            "states": 0
+        }
+    },
+    {
         "question": "Corrupt officials should be removed from office, or even imprisoned.",
         "effect": {
             "culture": 0,
@@ -1129,17 +1140,6 @@ questions = [
             "foreign": 0,
             "social": 0,
             "power": 10,
-            "states": 0
-        }
-    },
-    {
-        "question": "America is a Christian Nation.",
-        "effect": {
-            "culture": -10,
-            "solutions": 0,
-            "foreign": 0,
-            "social": 0,
-            "power": 5,
             "states": 0
         }
     },
@@ -1199,7 +1199,7 @@ questions = [
         }
     },
     {
-        "question": "America is one Nation, not fifty states.",
+        "question": "The US should be treated as one Nation, not fifty states.",
         "effect": {
             "culture": 0,
             "solutions": 0,

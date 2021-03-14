@@ -33,14 +33,25 @@ ideologies = [
         }
     },
     {
-        "name": "Progressive Republican",
+        "name": "Conservative Democrat",
         "stats": {
-            "culture": 40,
+            "culture": 60,
             "solutions": 35,
             "foreign": 60,
-            "social": 40,
-            "power": 40,
+            "social": 55,
+            "power": 50,
             "states": 55
+        }
+    },
+    {
+        "name": "Liberal Republican",
+        "stats": {
+            "culture": 55,
+            "solutions": 30,
+            "foreign": 70,
+            "social": 65,
+            "power": 60,
+            "states": 50
         }
     },
     {
@@ -140,28 +151,6 @@ ideologies = [
             "social": 55,
             "power": 30,
             "states": 40
-        }
-    },
-    {
-        "name": "Southern Democrat",
-        "stats": {
-            "culture": 50,
-            "solutions": 50,
-            "foreign": 70,
-            "social": 65,
-            "power": 60,
-            "states": 60
-        }
-    },
-    {
-        "name": "Southern Republican",
-        "stats": {
-            "culture": 20,
-            "solutions": 40,
-            "foreign": 25,
-            "social": 35,
-            "power": 35,
-            "states": 30
         }
     },
     {
