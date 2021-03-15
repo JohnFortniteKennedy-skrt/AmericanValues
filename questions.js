@@ -46,7 +46,7 @@ questions = [
     {
         "question": "Hate speech should be illegal.",
         "effect": {
-            "culture": 10,
+            "culture": 15,
             "solutions": 0,
             "foreign": 0,
             "social": 0,
@@ -66,7 +66,7 @@ questions = [
         }
     },
     {
-        "question": "The American flag should be respected.",
+        "question": "Burning the American flag should be illegal.",
         "effect": {
             "culture": -10,
             "solutions": 0,
@@ -99,46 +99,57 @@ questions = [
         }
     },
     {
-        "question": "The second amendment should be repealed.",
+        "question": "We need to do more to protect the American way of life.",
         "effect": {
-            "culture": 0,
+            "culture": -10,
             "solutions": 0,
             "foreign": 0,
-            "social": -5,
-            "power": 10,
+            "social": 0,
+            "power": 0,
             "states": 0
         }
     },
     {
-        "question": "It should be harder to buy a gun.",
+        "question": "Immigrants should learn English and assimilate into our culture.",
         "effect": {
-            "culture": 0,
+            "culture": -10,
             "solutions": 0,
             "foreign": 0,
-            "social": -5,
-            "power": 10,
+            "social": 0,
+            "power": 0,
             "states": 0
         }
     },
     {
-        "question": "Every American adult of sound mind should own a gun.",
-        "effect": {
-            "culture": 0,
-            "solutions": 0,
-            "foreign": 0,
-            "social": 5,
-            "power": -10,
-            "states": 0
-        }
-    },
-    {
-        "question": "Criticizing minorities is inherently racist.",
+        "question": "We need to be more tolerant of other cultures.",
         "effect": {
             "culture": 10,
             "solutions": 0,
             "foreign": 0,
             "social": 0,
             "power": 0,
+            "states": 0
+        }
+    },
+    {
+        "question": "The second amendment should be repealed.",
+        "effect": {
+            "culture": 0,
+            "solutions": 0,
+            "foreign": 0,
+            "social": 0,
+            "power": 10,
+            "states": 0
+        }
+    },
+    {
+        "question": "People should be able to pass a background check before buying a gun.",
+        "effect": {
+            "culture": 0,
+            "solutions": 0,
+            "foreign": 0,
+            "social": -5,
+            "power": 10,
             "states": 0
         }
     },
@@ -187,7 +198,7 @@ questions = [
         }
     },
     {
-        "question": "Transgender people should be allowed to change their sex marker on identifying documents.",
+        "question": "Transgender people should be allowed to change their sex/gender marker on identifying documents.",
         "effect": {
             "culture": 10,
             "solutions": 0,
@@ -242,17 +253,6 @@ questions = [
         }
     },
     {
-        "question": "Americans should work together to solve our problems.",
-        "effect": {
-            "culture": 0,
-            "solutions": 10,
-            "foreign": 0,
-            "social": 0,
-            "power": 0,
-            "states": 0
-        }
-    },
-    {
         "question": "No one has a duty to help the poor.",
         "effect": {
             "culture": 0,
@@ -297,17 +297,6 @@ questions = [
         }
     },
     {
-        "question": "We have to get the national debt under control.",
-        "effect": {
-            "culture": 0,
-            "solutions": -10,
-            "foreign": 0,
-            "social": 0,
-            "power": 0,
-            "states": 0
-        }
-    },
-    {
         "question": "I support a balanced budget amendment.",
         "effect": {
             "culture": 0,
@@ -315,17 +304,6 @@ questions = [
             "foreign": 0,
             "social": 0,
             "power": -5,
-            "states": 0
-        }
-    },
-    {
-        "question": "A negative income tax would be a good idea.",
-        "effect": {
-            "culture": 0,
-            "solutions": 5,
-            "foreign": 0,
-            "social": 0,
-            "power": 0,
             "states": 0
         }
     },
@@ -363,7 +341,7 @@ questions = [
         }
     },
     {
-        "question": "Socialized medicine sounds like a good idea.",
+        "question": "Hospitals and other medical institutions should be nationalized.",
         "effect": {
             "culture": 0,
             "solutions": 10,
@@ -432,7 +410,7 @@ questions = [
         "question": "We shouldn't have public schools.",
         "effect": {
             "culture": 0,
-            "solutions": -10,
+            "solutions": -15,
             "foreign": 0,
             "social": 0,
             "power": 0,
@@ -440,7 +418,7 @@ questions = [
         }
     },
     {
-        "question": "School vouchers are a good alternative to public schools.",
+        "question": "The government should fund school vouchers for children who want to go to private school.",
         "effect": {
             "culture": 0,
             "solutions": -10,
@@ -506,7 +484,7 @@ questions = [
        }
     },
     {
-        "question": "We should have less regulations than we do now.",
+        "question": "We should repeal regulations that hinder free trade.",
         "effect": {
             "culture": 0,
             "solutions": -10,
@@ -537,17 +515,6 @@ questions = [
             "power": 0,
             "states": 0
        }
-    },
-    {
-        "question": "We need stronger environmental regulations.",
-        "effect": {
-            "culture": 0,
-            "solutions": 10,
-            "foreign": 0,
-            "social": 0,
-            "power": 0,
-            "states": 0
-        }
     },
     {
         "question": "There should be a tax on pollution.",
@@ -620,17 +587,6 @@ questions = [
         "effect": {
             "culture": -10,
             "solutions": -10,
-            "foreign": 0,
-            "social": 0,
-            "power": 0,
-            "states": 0
-        }
-    },
-    {
-        "question": "Workers should play a role in the management of businesses.",
-        "effect": {
-            "culture": 0,
-            "solutions": 10,
             "foreign": 0,
             "social": 0,
             "power": 0,
@@ -968,145 +924,13 @@ questions = [
         }
     },
     {
-        "question": "Prohibition would work if implemented today.",
+        "question": "We should ban the sale of intoxicating liquors.",
         "effect": {
             "culture": -5,
             "solutions": -10,
             "foreign": 0,
             "social": -10,
             "power": 0,
-            "states": 0
-        }
-    },
-    {
-        "question": "Every adult citizen should be allowed to vote.",
-        "effect": {
-            "culture": 0,
-            "solutions": 0,
-            "foreign": 0,
-            "social": 0,
-            "power": -10,
-            "states": 0
-        }
-    },
-    {
-        "question": "The Supreme Court should ignore the Constitution if it conflicts with popular opinion.",
-        "effect": {
-            "culture": 0,
-            "solutions": 0,
-            "foreign": 0,
-            "social": 0,
-            "power": 10,
-            "states": 0
-        }
-    },
-    {
-        "question": "Legislating from the bench is okay if the outcome is good.",
-        "effect": {
-            "culture": 0,
-            "solutions": 0,
-            "foreign": 0,
-            "social": 0,
-            "power": 10,
-            "states": 0
-        }
-    },
-    {
-        "question": "Only Congress should have the power to pass laws or declare wars.",
-        "effect": {
-            "culture": 0,
-            "solutions": 0,
-            "foreign": 0,
-            "social": 0,
-            "power": -10,
-            "states": 0
-        }
-    },
-    {
-        "question": "Even if I disagree, we should follow the text of the Constitution.",
-        "effect": {
-            "culture": 0,
-            "solutions": 0,
-            "foreign": 0,
-            "social": 0,
-            "power": -10,
-            "states": 0
-        }
-    },
-    {
-        "question": "The Constitution is outdated and should be replaced.",
-        "effect": {
-            "culture": 0,
-            "solutions": 0,
-            "foreign": 0,
-            "social": 0,
-            "power": 10,
-            "states": 0
-        }
-    },
-    {
-        "question": "It's okay for Congress to pass unconstitutional laws.",
-        "effect": {
-            "culture": 0,
-            "solutions": 0,
-            "foreign": 0,
-            "social": 0,
-            "power": 10,
-            "states": 0
-        }
-    },
-    {
-        "question": "The President should have more power.",
-        "effect": {
-            "culture": 0,
-            "solutions": 0,
-            "foreign": 0,
-            "social": 0,
-            "power": 10,
-            "states": 0
-        }
-    },
-    {
-        "question": "Checks and balances hurt the Nation's ability to function properly.",
-        "effect": {
-            "culture": 0,
-            "solutions": 0,
-            "foreign": 0,
-            "social": 0,
-            "power": 10,
-            "states": 0
-        }
-    },
-    {
-        "question": "If democratic institutions fail to serve the People, then a benevolent dictator should assume power.",
-        "effect": {
-            "culture": 0,
-            "solutions": 0,
-            "foreign": 0,
-            "social": 0,
-            "power": 10,
-            "states": 0
-        }
-    },
-    {
-        "question": "The military would be better at governance than elected politicians.",
-        "effect": {
-            "culture": 0,
-            "solutions": 0,
-            "foreign": 0,
-            "social": 0,
-            "power": 10,
-            "states": 0
-        }
-    },
-    {
-        "question": "Corrupt officials should be removed from office, or even imprisoned.",
-        "effect": {
-            "culture": 0,
-            "solutions": 0,
-            "foreign": 0,
-            "social": 0,
-            "power": -10,
             "states": 0
         }
     },
@@ -1122,7 +946,7 @@ questions = [
         }
     },
     {
-        "question": "The government should adopt a state religion (including Atheism).",
+        "question": "The Constitution should be interpreted as a living document.",
         "effect": {
             "culture": 0,
             "solutions": 0,
@@ -1133,13 +957,90 @@ questions = [
         }
     },
     {
-        "question": "Religion should be banned.",
+        "question": "Even if I disagree, we should follow the Constitution.",
         "effect": {
-            "culture": 20,
+            "culture": 0,
+            "solutions": 0,
+            "foreign": 0,
+            "social": 0,
+            "power": -15,
+            "states": 0
+        }
+    },
+    {
+        "question": "The Supreme Court should be impartial and non-political.",
+        "effect": {
+            "culture": 0,
+            "solutions": 0,
+            "foreign": 0,
+            "social": 0,
+            "power": -10,
+            "states": 0
+        }
+    },
+    {
+        "question": "It's okay to stretch the meaning of the Constitution if the outcome is good.",
+        "effect": {
+            "culture": 0,
             "solutions": 0,
             "foreign": 0,
             "social": 0,
             "power": 10,
+            "states": 0
+        }
+    },
+    {
+        "question": "We should only appoint/elect Supreme Court Justices of my political party.",
+        "effect": {
+            "culture": 0,
+            "solutions": 0,
+            "foreign": 0,
+            "social": 0,
+            "power": 10,
+            "states": 0
+        }
+    },
+    {
+        "question": "We should pack the Supreme Court with my political allies.",
+        "effect": {
+            "culture": 0,
+            "solutions": 0,
+            "foreign": 0,
+            "social": 0,
+            "power": 10,
+            "states": 0
+        }
+    },
+    {
+        "question": "The Supreme Court doesn't have the power to overturn laws.",
+        "effect": {
+            "culture": 0,
+            "solutions": 0,
+            "foreign": 0,
+            "social": 0,
+            "power": -15,
+            "states": 0
+        }
+    },
+    {
+        "question": "Legislating from the bench is a threat to our Democracy.",
+        "effect": {
+            "culture": 0,
+            "solutions": 0,
+            "foreign": 0,
+            "social": 0,
+            "power": -10,
+            "states": 0
+        }
+    },
+    {
+        "question": "Written legislation (civil law) is more important than judicial precedent (common law).",
+        "effect": {
+            "culture": 0,
+            "solutions": 0,
+            "foreign": 0,
+            "social": 0,
+            "power": -10,
             "states": 0
         }
     },
@@ -1166,7 +1067,7 @@ questions = [
         }
     },
     {
-        "question": "The states should decide gay marriage and abortion.",
+        "question": "The states should decide most issues without federal involvement.",
         "effect": {
             "culture": 0,
             "solutions": 0,
@@ -1184,7 +1085,7 @@ questions = [
             "foreign": 0,
             "social": 0,
             "power": 0,
-            "states": -10
+            "states": -15
         }
     },
     {
@@ -1195,7 +1096,7 @@ questions = [
             "foreign": 0,
             "social": 0,
             "power": 0,
-            "states": -10
+            "states": -15
         }
     },
     {
@@ -1206,7 +1107,7 @@ questions = [
             "foreign": 0,
             "social": 0,
             "power": 0,
-            "states": -10
+            "states": 15
         }
     },
     {
@@ -1216,7 +1117,7 @@ questions = [
             "solutions": 0,
             "foreign": 0,
             "social": 0,
-            "power": -5,
+            "power": 0,
             "states": -10
         }
     },
@@ -1232,50 +1133,6 @@ questions = [
         }
     },
     {
-        "question": "States shouldn't have rights.",
-        "effect": {
-            "culture": 0,
-            "solutions": 0,
-            "foreign": 0,
-            "social": 0,
-            "power": 0,
-            "states": 10
-        }
-    },
-    {
-        "question": "Washington D.C. should be a state.",
-        "effect": {
-            "culture": 10,
-            "solutions": 0,
-            "foreign": 0,
-            "social": 0,
-            "power": -10,
-            "states": 10
-        }
-    },
-    {
-        "question": "Puerto Rico should be a state.",
-        "effect": {
-            "culture": 10,
-            "solutions": 0,
-            "foreign": 10,
-            "social": 0,
-            "power": -10,
-            "states": 10
-        }
-    },
-    {
-        "question": "Jefferson (Northern California and Southern Oregon) should become a state.",
-        "effect": {
-            "culture": -10,
-            "solutions": 0,
-            "foreign": 0,
-            "social": 0,
-            "power": -10,
-            "states": 10
-        }
-    },
-    {
         "question": "The Senate should be abolished, or elected proportionally.",
         "effect": {
             "culture": 0,
@@ -1283,11 +1140,11 @@ questions = [
             "foreign": 0,
             "social": 0,
             "power": 0,
-            "states": 10
+            "states": 15
         }
     },
     {
-        "question": "The Electoral College is bad, because it gives smaller states too much power.",
+        "question": "We should abolish the electoral college.",
         "effect": {
             "culture": 0,
             "solutions": 0,
@@ -1298,25 +1155,14 @@ questions = [
         }
     },
     {
-        "question": "It should be easier for third parties and Independents to get elected.",
+        "question": "The United States should become a unitary Republic.",
         "effect": {
             "culture": 0,
             "solutions": 0,
             "foreign": 0,
             "social": 0,
-            "power": -10,
-            "states": 0
+            "power": 0,
+            "states": 20
         }
     },
-    {
-        "question": "I support an alternative voting system like ranked-choice or approval voting.",
-        "effect": {
-            "culture": 0,
-            "solutions": 0,
-            "foreign": 0,
-            "social": 0,
-            "power": -10,
-            "states": 0
-        }
-    }
 ];

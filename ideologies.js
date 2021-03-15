@@ -25,8 +25,19 @@ ideologies = [
         "name": "Mainstream Republican",
         "stats": {
             "culture": 40,
-            "solutions": 60,
+            "solutions": 40,
             "foreign": 50,
+            "social": 40,
+            "power": 40,
+            "states": 55
+        }
+    },
+    {
+        "name": "Progressive Republican",
+        "stats": {
+            "culture": 70,
+            "solutions": 40,
+            "foreign": 80,
             "social": 40,
             "power": 40,
             "states": 55
@@ -35,12 +46,12 @@ ideologies = [
     {
         "name": "National Populist",
         "stats": {
-            "culture": 35,
+            "culture": 40,
             "solutions": 65,
             "foreign": 20,
             "social": 25,
-            "power": 20,
-            "states": 35
+            "power": 25,
+            "states": 25
         }
     },
     {
